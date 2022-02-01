@@ -11,7 +11,6 @@ const Reciept = () => {
   useEffect(() => {
     getMealById(id).then((data) => {
       setMealsInfo(data.meals[0])
-      console.log(mealsInfo)
     })
   }, [id])
   return (

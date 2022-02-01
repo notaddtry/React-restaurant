@@ -2,13 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const CategoriesItem = (props) => {
-  const { idCategory, strCategory, strCategoryDescription, strCategoryThumb } =
-    props
+  const { strCategory, strCategoryDescription, strCategoryThumb } = props
 
   return (
     <div className="card">
       <div className="card-image">
-        <img src={strCategoryThumb} />
+        <img src={strCategoryThumb} alt={strCategory} />
       </div>
       <div className="card-content">
         <span className="card-title">{strCategory}</span>

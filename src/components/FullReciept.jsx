@@ -18,7 +18,7 @@ const FullReciept = (props) => {
       </button>
       <div className="card reciept-wrapper">
         <div className="card-image reciept-image">
-          <img src={strMealThumb} />
+          <img src={strMealThumb} alt={strMeal} />
         </div>
         <span className="card-title">{strMeal}</span>
         <div className="card-content">

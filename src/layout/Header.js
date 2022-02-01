@@ -6,7 +6,7 @@ function Header() {
     <nav>
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          React Shop
+          SPA Restaurant
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
@@ -16,7 +16,9 @@ function Header() {
             <Link to="/contact">Contacts</Link>
           </li>
           <li>
-            <a href="https://github.com/notaddtry/React-Shop">Repository</a>
+            <a href="https://github.com/notaddtry/React-restaurant">
+              Repository
+            </a>
           </li>
         </ul>
       </div>
