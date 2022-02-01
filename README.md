@@ -1,1 +1,1 @@
-u can test this => https://notaddtry.github.io/React-restaurant/
+u can test this SPA => https://notaddtry.github.io/React-restaurant/
